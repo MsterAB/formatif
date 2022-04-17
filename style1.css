@@ -70,3 +70,13 @@ th{
 p{
   font-size: larger;
 }
+
+button{
+  color: salmon;
+  background-color: white;
+  height: 50px;
+  width: 300px;
+  text-align: center;
+  font-size: medium;
+  font-weight: bold;
+}
