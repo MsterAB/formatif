@@ -1,0 +1,38 @@
+html{background-image:linear-gradient(to top right, rgb(87, 53, 209), rgb(48, 31, 197));
+}.home{
+    text-align: center;
+    margin-top: -1%;
+    font-size: xx-large;
+    color: white;
+}
+
+.header{
+    padding-top: 10px;
+    padding-bottom: 0px;
+    text-decoration-line: underline;
+}
+
+.txt{
+    margin-top: -20px;
+    font-size: larger;
+}
+
+.vert {
+    color: #3dc03d;
+}
+
+button{
+    height: 80px;
+    width: 350px;
+    mix-blend-mode: screen;
+    font-size: xx-large;
+    font-weight: 600;
+    
+    
+}
+
+.link{
+    color: yellow;
+    font-size: smaller;
+}
+

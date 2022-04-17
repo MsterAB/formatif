@@ -1,0 +1,68 @@
+body{
+    background-image:linear-gradient(to top right, rgb(87, 53, 209), rgb(48, 31, 197));
+    text-align: center;
+    margin-top: -1%;
+    font-size: xx-large;
+    color: white;
+}
+
+.txt{
+    text-align: left;
+}
+
+
+table {
+    
+    width: 100%;
+    border-collapse: collapse;
+}
+.slider{
+    margin-bottom: 25px;
+}
+td {
+    width: 25% ;
+    border: 5px solid white;
+    border-collapse: collapse;
+}  
+th{
+    border: 5px solid white;
+    border-collapse: collapse;
+}
+
+
+.slidecontainer {
+  width: 100%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 100%; /* Full-width */
+  height: 5px; /* Specified height */
+  background: white; /* Grey background */
+  outline: none; /* Remove outline */
+  
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 35px; /* Set a specific slider handle width */
+  height: 35px; /* Slider handle height */
+  border-radius: 100px;
+  background: white; /*background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+  width: 35px; /* Set a specific slider handle width */
+  height: 35px; /* Slider handle height */
+  background: white; /*background */
+  cursor: pointer; /* Cursor on hover */}
