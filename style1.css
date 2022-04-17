@@ -66,3 +66,7 @@ th{
   height: 35px; /* Slider handle height */
   background: white; /*background */
   cursor: pointer; /* Cursor on hover */}
+
+p{
+  font-size: larger;
+}
